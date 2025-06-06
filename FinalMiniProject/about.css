@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.about-container{
+    background-color: #ffffff;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.second-page-laptop-img{
+height: 500px;
+width: 500px;
+}
+
+.about-heading{
+    color: black;
+    font-size: 35px;
+    padding:5px;
+    font-weight: bold;
+    font-family: "Roboto";
+    text-align: left;
+}
+
+.underline{
+    color:#353d6a;
+}
+.about-paragraph{
+    color: black;
+    text-align: left;
+    font-size:15px;
+    padding:auto;
+    font-weight:normal;
+    font-family: "Roboto";
+}
+
+.level-buttons{
+    height: 30px;
+    width: 150px;
+background-color:black;
+border: pink;
+color: white;
+font-size: 15px;
+border-style: solid;
+border-color: black;
+border-radius: 30px;
+border-width: 1px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.level-buttons:hover{
+    background-color: #45a049;
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+    
+.get-started-btn{
+    background-color:black;
+    height: 40px;
+    width: 135px;
+    border-radius: 8px;
+    color:whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: auto;
+    border-width: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+
+.get-started-btn:hover{
+    background-color:brown;
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    color:white;
+}
+
+.third-container {
+    background-image: linear-gradient(to right, #dac0ff, #690cb0);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    text-align: center;
+}
+.head-part-level1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.level1-image{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 60px;
+}
+.head {
+    color: black;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 45px;
+    text-align: left;
+}
+
+.timer-img {
+    height: 50px;
+    width: 50px;
+}
+
+.counting-num {
+    color: #323f4b;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.para {
+    color: #3e4c59;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+}
+
+.card {
+    background-color: #f3ebfe;
+    width: 90%;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+.random-para {
+    color: black;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+}
+
+.submit-button{
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    height: 40px;
+    width:30px;
+    text-align: center;
+}
+
+
+.err-msg {
+    color: grey;
+    font-family: "Roboto";
+    font-size: 25px;
+    text-align: left;
+}
+.hidden {
+    display: none;
+}
+
+.wrong-answer-page{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrong-page-card{
+    background-color:white;
+    height: 400px;
+    width: 400px;
+    border-radius: 14px;
+    margin: auto;
+    
+}
+
+.wrong-button-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    margin: auto;
+    
+}
+
+.wrong-button{
+    background-color:black;
+    font-size: 25px;
+    font-weight:normal;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    height: 45px;
+    width:100px;
+    text-align: center;
+}
+
+.wrong-button:hover{
+    background-color:red;
+    color:white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+.popup-page-image{
+    height: 350px;
+    width: 350px;
+    align-self: center;
+}
+.btn-close{
+    background-color:black;
+    font-size: 25px;
+    font-weight:normal;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    height: 40px;
+    width:30px;
+    text-align: center;
+}
+
+.btn-close:hover{
+    background-color:red;
+    color:white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}

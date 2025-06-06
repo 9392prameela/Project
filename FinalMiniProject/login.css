@@ -1,0 +1,60 @@
+.login-page-container {
+    background-image: url("https://img.freepik.com/free-vector/digital-media-concept_1284-3468.jpg?t=st=1732026645~exp=1732030245~hmac=7d592dd6023425d89eabc365c9e959647010bb500ea8b1258db80ea4d2d263f6&w=740");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+
+}
+.login-page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color: black;
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: bolder;
+    margin-right: 150px;
+    margin-top: 300px;
+    
+}
+
+
+.button{
+    color:#ffffff;
+    background-color:#353d6a;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right: 290px;
+    margin-top: 10px;
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .heading {
+        color: black;
+        font-family: "Roboto";
+        font-size: 60px;
+        font-weight: bolder;
+        margin-right: 150px;
+        margin-top: 200px;
+    
+    }
+    
+    .button {
+        color: white;
+        background-color: black;
+        height: 50px;
+        width: 150px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-right: 290px;
+        margin-top: 10px;
+    
+    }
+}
