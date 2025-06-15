@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.left-card{
+    height: 136vh;
+}
+.left-card-top{
+    height: 125vh;
+}
+.left-card-bottom{
+    height: 10vh;
+}
+.right-card{
+    height: 136vh;
+}
+.right-side-bg{
+    background-image:url("https://i.pinimg.com/736x/62/54/12/625412280aba94118d9e91ce5147151f.jpg");
+    height: 30vh;
+    border-radius: 20px;
+}
+.right-card-bottom{
+    height: 70vh;
+}
+.side-icon{
+    color: black;
+    font-size: 20px;
+}
+.person-image{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+.left-para{
+    text-align: left;
+    font-size: 18px;
+    font-family: "roboto";
+    color: black;
+    font-weight: normal;
+
+}
+.left-heading{
+    text-align: left;
+    font-size:20px;
+    font-family: "roboto";
+    color: black;
+    font-weight: bold;
+
+}
+.intensive-btn{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius:20px;
+    border-width:0px;
+    border-color: green;
+}
+.first-para{
+    color: black;
+    font-size: 15px;
+    font-family: "Roboto";
+    padding: 1px;
+    text-align: left;
+}
+.first-heading{
+    color: black;
+    font-size: 25px;
+    font-family: "Roboto";
+    padding: 1px;
+    text-align: left;
+    font-weight: bold;
+}
+.para3{
+    color: black;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding: 1px;
+    text-align: left;
+    font-weight: normal;
+}
